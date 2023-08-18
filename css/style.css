@@ -1,0 +1,373 @@
+.navebar{
+    position: relative;
+    background-color: #4a1831;
+    width: 100%;
+    text-align: center;
+      
+}
+.navber{
+    width: 80%;
+    background-color:#4a1831;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.navebar_info ul li{
+    position: relative;
+    display: inline-block;
+}
+.navebar_info ul li a{
+    color: rgb(255, 245, 245);
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px 20px 15px 20px;  
+    display: block;
+}
+
+.navebar_info ul li a:hover{
+    background-color: rgba(124, 17, 173, 0.562);
+    transition: all linear 500ms;
+    color: #ecc5a0;
+}
+
+/* benner section  */
+.benner{
+    position: relative;
+    background-image: url("../images/benner/7375040_3629579.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -16px;
+    
+}
+.benner_logo{
+    position: absolute;
+    top: 50px;
+}
+
+.benner_item h1{
+font-size: 100px;
+color: #ffd7ad;
+padding-top: 230px;
+font-family: 'Kaushan Script', cursive;
+}
+.benner_item p{
+    color: aliceblue;
+    padding: 50px 0 280px 0;
+    font-size: 22px;
+    color: #ffd7ad;
+    font-family: 'Great Vibes', cursive;
+    
+}
+.benner_item span a{
+    font-family: 'Bangers', cursive;
+    font-weight: 400;
+    position: absolute;
+    top: 580px;
+    color: #ecc5a0;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 100px ;
+    border-radius: 25px;
+    background-color: #4a1831;
+}
+.benner_item span a:hover{
+    text-decoration: none;
+    color: #4a1831;
+    background-color: #ecc5a0;
+    transition: all linear 500ms;
+    box-shadow: 5px 8px 10px red;
+}
+
+/* menu section  */
+.menu{
+    position: relative;
+    background-color: #ffd7ad;
+    text-align: center;
+}
+.menu_item h1{
+    font-family: 'Kaushan Script', cursive;
+    color: #4a1831;
+    font-size: 45px ;
+    padding: 100px 0 40px 0;
+    font-weight: 400;
+}
+
+.menu_item p{
+    font-size: 20px;
+    color: #4a1831;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+    padding-bottom: 250px;
+
+}
+.menu_item a{
+    position: absolute;
+    top: 350px;
+    left: 470px;
+    padding: 10px 60px;
+    font-size: 20px;
+    background-color: #f8bd7f;
+    border-radius: 25px;    
+    color: #4a1831;
+    text-decoration: none;
+    font-family: 'Bangers', cursive;
+    font-weight: 400;
+    
+}
+.menu_item a:hover{
+    text-decoration: none;
+    color: #ecc5a0;
+    background-color: #4a1831;
+    transition: all linear 500ms;
+    box-shadow: 5px 8px 10px red;
+}
+
+
+
+/* food section  */
+.food{
+    background-image: url("../images/benner/food.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px ;
+    width: 100%;
+}
+ /* about section */
+ .about{
+    background-color: #ecc5a0;
+    padding: 100px 0;
+ }
+ .about_item h1{
+    position: relative;
+    padding: 100px 0 50px 50px;
+    font-size: 50px;
+    font-weight: 400;
+    color: #4a1831;
+    font-family: 'Kaushan Script', cursive;
+ }
+ .about_item p{
+    font-size: 30px;
+    color: #4a1831;
+    font-weight: 800;
+    font-family: 'Great Vibes', cursive;
+    padding: 0 0 200px 50px;
+
+ }
+ .about_item a{
+    position: absolute;
+    top: 450px ;
+    left: 150px;
+    text-decoration: none;
+    padding: 10px 45px;
+    background-color: #f5a75e;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-family: 'Bangers', cursive;
+    font-weight: 400;
+    color: aliceblue;
+
+ }
+ .about_item a:hover{
+    text-decoration: none;
+    color: #ecc5a0;
+    background-color: #4a1831;
+    transition: all linear 500ms;
+    box-shadow: 5px 8px 10px red;
+ }
+
+
+ /* discount section  */
+ 
+ .discount{
+    position: relative;
+    background-color: #ecc5a0;
+    padding: 20px 0;
+ }
+ .discount_img img{
+    position: absolute;
+   height: 552px;
+   text-align: right;
+   top:0;
+   left: 300px;
+ }
+ 
+
+.disconunt_item h1{
+    font-size: 180px;
+    color: #e63956;
+    
+    font-weight: 800;
+    padding-top: 50px;
+}
+
+.disconunt_item h2{
+    color: #4a1831;
+    padding-top: -10px;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding-bottom: 190px;
+}
+.disconunt_item h3{
+    top: 320px;
+    position: absolute;
+    font-size: 90px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #6cc5ac;
+    
+}
+
+/* offers section  */
+.offers{
+    background-color: #4a1831;
+    padding: 50px 0;
+}
+.offers_item{
+    text-align: center;
+}
+.offers_item h1{
+    font-family: 'Kaushan Script', cursive;
+    position: relative;
+    font-size: 60px;
+    font-weight: 700;
+    padding-top: 100px;
+    color: #ecc5a0;
+}
+.offers_item p{
+    color: #ecc5a0;
+    font-size: 30px;
+    padding: 25px 0;
+    font-weight: 700;
+    font-family: 'Great Vibes', cursive;
+}
+.offers_item a{
+    position: absolute;
+    top: 400px ;
+    left: 200px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Bangers', cursive;
+    font-weight: 400;
+    color: #ecc5a0;
+    padding: 9px 45px;
+    background-color: #f5a75e;
+    border-radius: 25px;
+
+}
+.offers_item a:hover{
+    text-decoration: none;
+    color: #4a1831;
+    background-color:#ecc5a0;
+    transition: all linear 500ms;
+    box-shadow: 5px 8px 10px red;
+}
+
+
+/* bloge section  */
+.bloge{
+    position: relative;
+    background-image: url("../images/fotar/7375040_3629579.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 650px;
+    width: 100%;
+}
+.bloge1{
+    position: absolute;
+    background-color: #603a4a69;
+    width: 100%;
+    height:650px;
+}
+
+
+.bloge_item img{
+    z-index: 11;
+    position: absolute;
+    left: 430px;
+    top: 50px;
+}
+.bloge_item h1{
+    z-index: 11;
+    position: absolute;
+    top: 350px;
+    color: #ecc5a0;
+    font-size: 35px;
+    font-weight: 800;
+    left: 100px;
+}
+.bloge_item h4{
+    z-index: 11;
+    position: absolute;
+    top: 550px;
+    left: 450px;
+    color: #f5a75e;
+    font-size: 35px;
+    font-weight: 700;
+
+    
+}
+
+/* subcribe section  */
+.subcribe{
+    background-color: #ecc5a0;
+    padding: 100px 0;
+}
+.subcribe_item{
+    background-color: #ecc5a0;
+    text-align: center;
+}
+.subcribe_item h1{
+    font-size: 45px;
+    color: #4a1831;
+    font-weight: 800;
+    padding: 25px 0;
+    font-family: 'Kaushan Script', cursive;
+
+}
+.subcribe_item h4{
+    font-size: 30px;
+    color: #4a1831;
+    font-weight: 700;
+    padding-bottom: 50px;
+    font-family: 'Great Vibes', cursive;
+}
+.email{
+   
+    border-color: #f5a75e;
+    text-align: center;
+    border-color: #f5a75e;
+    padding: 9px 100px;
+    border-radius: 25px;
+    border: solid;
+    text-transform: uppercase;
+}
+
+
+.submit{
+    
+    padding: 10px 30px;
+    border: solid;
+    border-radius: 25px;
+    color: aliceblue;
+    background-color: #6cc5ac;
+    text-transform: uppercase;
+    font-family: 'Bangers', cursive;
+    font-weight: 700;
+    font-size: 100px;
+    border-radius: 0;
+    
+}
+
+
+
+/* google font 
+font-family: 'Bangers', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Tangerine', cursive;
+ */
